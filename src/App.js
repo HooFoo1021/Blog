@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button';
 import logo from './logo.svg';
 import './App.css';
+/*
+function App() {
+  return (
+    <Button variant="contained" color="primary">
+      Hello World
+    </Button>
+  );
+}
+
+ReactDOM.render(<App />, document.querySelector('#app'));
+*/
+
 
 class App extends Component {
   render() {
@@ -20,6 +34,11 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <body>
+          <Button variant="contained" color="primary">
+            Real..?
+          </Button>
+        </body>
       </div>
     );
   }

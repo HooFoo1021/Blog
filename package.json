@@ -2,7 +2,12 @@
   "name": "blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hoofoo1021.github.io/blog",
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "gh-pages": "^2.0.1",
+    "markdown-to-jsx": "^6.9.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8"
@@ -11,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
